@@ -1,0 +1,819 @@
+/*  Author: Jose Samuel| Upgrade: 18/07/20 0ho
+*/ 
+
+    .capa0{
+
+     top: 110px;
+     width: 600px;
+     height: 500px;
+     left: 340px;
+     background: linear-gradient(
+     rgba(40, 170, 164, 0.815),
+     rgba(4, 145, 133, 0.603),
+     rgba(206, 144, 11, 0.801));
+     background-size: cover;
+     -webkit-background-size: cover; 
+   }
+
+
+  
+    #geral{
+
+     position: absolute;
+     top: 57%;
+     width: 22%;
+     height: 30%;
+     right: 5%;
+     background: linear-gradient(
+     rgba(40, 170, 164, 0.705),
+     rgba(4, 145, 133, 0.555),
+     rgba(206, 144, 11, 0.801)),url("imagens/Fundo/geral.gif");  
+    }
+ 
+
+ 
+
+  .modura{
+
+    position: absolute;
+    top: 90px;
+    width: 640px;
+    height: 540px;
+    left: 320px;
+    background-color: rgba(197, 197, 197, 0.445);
+   
+  }
+
+  .buta{
+
+    position: absolute;
+    top: 55px;
+    right: 445px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+  }
+  .buta:hover {  
+     border: solid 2px #241964;
+  }
+
+
+
+
+  .dia1{
+
+    position: absolute;
+    text-align: center;
+    top: 43px;
+    left: 368px;
+    width: 50px;
+    height: 50px;
+    border: solid 2px #ff5507;
+    font-size: 36px;    
+  }
+  .dia1:hover {  
+    border: solid 2px #4e12f3;
+}
+
+
+
+  
+  .mes1{
+
+    position: absolute;
+    text-align: center;
+    top: 43px;
+    left: 478px;
+    width: 50px;
+    height: 50px;
+    border: solid 2px #ff5507;
+    font-size: 36px;  
+  }
+  .mes1:hover {  
+     border: solid 2px #4e12f3;
+    }
+
+    
+
+  .DATA{
+   position: absolute;
+   top: 50px;
+   right: 19px;
+   font-size: 38px;
+   color: blanchedalmond;
+
+  }
+
+  .sozim{
+   left: 30px; 
+   position: absolute;
+   top: 250px;
+   font-size: 30px;
+   color: rgb(255, 255, 255);
+  }
+
+  .unico0 {
+   position: absolute;
+   top:125px;
+   left:12px;
+   font-size:20px;
+    color: rgb(55, 57, 180);
+
+  }
+
+
+  
+
+  .unico1 {
+   position: absolute;
+   top:125px;
+   left:12px;
+   font-size:20px;
+   color:   rgb(56, 70, 18);
+  }
+
+    .unico2 {
+     position: absolute;
+     top:125px;
+      left:12px;
+     font-size:20px;
+     color: rgb(5, 117, 168);
+    }
+  
+    .unico3 {
+     position: absolute;
+     top:125px;
+     left:12px;
+     font-size:20px;
+     color: rgb(0, 0, 255);
+    }     
+
+    .unico4 {
+     position: absolute;
+     top:125px;
+     left:12px;
+     font-size:20px;
+     color: rgb(139, 0, 0);
+    }
+   
+
+  
+   .nomeSigno{
+     position: absolute;
+     top: 24px;
+     left: 18px;
+     font-size: 55px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgba(21, 245, 226, 0.877);
+    }
+
+  
+    .nomeSigno1{
+     
+     position: absolute;
+     top: 20px;
+     left: 16px;
+     font-size: 55px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color:   rgba(250, 162, 0, 0.863);
+    }
+
+
+    .nomeSigno2{
+     
+     position: absolute;
+     top: 22px;
+     left: 18px;
+     font-size: 55px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgb(255, 255, 255);
+    }
+
+    .EL00 {
+      position: absolute;
+      top: 330px;
+     width: 313px;
+     height: 200px;
+     left: 5px;  /* opacity: 0.9; */
+     background: linear-gradient(
+     rgba(255, 255, 255, 0),
+     rgba(215, 5, 252, 0),
+     rgba(253, 11, 221, 0)
+     ),url("imagens/Elemento/Trincado.jpg") no-repeat; 
+     background-size: cover;
+     -webkit-background-size: cover;
+     display: none;
+    }
+  
+
+    .name0{
+     position: absolute;
+     font-size: 60px;
+     top: 375px;
+     left: 11px; 
+     color: rgb(55, 57, 180);
+    }
+
+
+    
+
+      
+    .EL1 {
+
+     position: absolute;
+     top: 430px;
+     width: 313px;
+     height: 200px;
+     left: 5px;  /* opacity: 0.9; */
+     background: linear-gradient(
+     rgba(246, 244, 244, 0),
+     rgba(13, 196, 252, 0.637)
+     ),url("imagens/Elemento/Agua.jpg") no-repeat; 
+     background-size: cover;
+     -webkit-background-size: cover;
+     display: none;
+    }
+
+
+    .text1{
+     position: relative;
+     font-size: 19px;
+     top: 439px;
+     left: 0px; 
+     color: rgb(0, 0, 255);
+    }
+
+    .name1{
+     position: absolute;
+     font-size: 60px;
+     top: 375px;
+     left: 11px; 
+     color: rgb(0, 0, 255);
+    }
+
+
+   .EL2 {
+    position: absolute;
+    top: 450px;
+     width: 313px;
+     height: 180px;
+     left: 5px;  /* opacity: 0.9; */ 
+     background: linear-gradient(
+     rgba(160, 246, 228, 0.39),
+     rgba(234, 236, 236, 0.205)
+     ),url("imagens/Elemento/Ar.jpg") no-repeat; 
+     background-size: cover;
+     -webkit-background-size: cover;
+     display: none;
+    }
+
+    .text2{
+     position: relative;
+     font-size: 19px;
+     top: 460px;
+     left: 2px; 
+     color: rgba(1, 79, 204, 0.959);
+    }
+
+    .name2{
+     position: absolute;
+     font-size: 70px;
+     top: 400px;
+     left: 12px; 
+     color: rgb(253, 253, 253);
+    }
+
+
+    .EL3 {
+      position: absolute;
+      top: 430px;
+     width: 313px;
+     height: 200px;
+     left: 5px;  /* opacity: 0.9; */
+     background: linear-gradient(
+     rgba(245, 2, 2, 0.267),
+     rgba(207, 155, 11, 0.226),
+     rgba(252, 248, 4, 0.246)
+     ),url("imagens/Elemento/fogo.jpg") no-repeat; 
+     background-size: cover;
+     -webkit-background-size: cover;
+     display: none;
+    }
+
+    .text3{
+     position: relative;
+     font-size: 19px;
+     top: 439px;
+     left: -2px;  
+     color: rgb(10, 67, 90);
+    }
+
+    .name3{
+     position: absolute;
+     font-size: 60px;
+     top: 375px;
+     left: 11px;
+     color: rgb(255, 5, 5);
+    }
+
+
+    .EL4 {
+      position: absolute;
+      top: 430px;
+     width: 313px;
+     height: 200px;
+     left: 5px;  /* opacity: 0.9; */
+     background: linear-gradient(
+     rgba(252, 248, 22, 0.575),
+     rgba(227, 252, 5, 0.253),
+     rgba(47, 253, 11, 0.5)
+     ),url("imagens/Elemento/terra.jpg") no-repeat; 
+     background-size: cover;
+     -webkit-background-size: cover;
+     display: none;
+    }
+    
+    .text4{
+     position: relative;
+     font-size: 19px;
+     top: 439px;
+     left: 0px;
+     color: rgb(56, 43, 10);
+    }
+
+    .name4{
+     position: absolute;
+     font-size: 60px;
+     top: 375px;
+     left: 11px; 
+     color: rgb(93, 71, 15);
+    }
+
+
+
+    .gt00{ /* inicio*/
+
+        position: absolute;
+        top: 111px;
+        width: 600px;
+        height: 500px;
+        left: 340px;
+        background: linear-gradient(
+        rgba(255, 117, 5, 0.281),
+        rgba(9, 211, 194, 0.24)
+        ),url("imagens/Simbolo/zInicio.jpg") no-repeat; 
+        background-size: cover;
+        -webkit-background-size: cover;
+        display: none;
+         
+    }
+      
+ /* Imagens dos Signos*/
+
+  
+  
+  .gt0{ /* Do Gif*/
+
+    position: absolute;
+    top: 111px;
+    width: 600px;
+    height: 500px;
+    left: 340px;
+    background: url("imagens/simbolo/Geral.gif") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none;
+  }
+
+ 
+
+  .Ecapa { /* fundo */
+    
+    position: absolute;
+    top: 75px;
+    width: 1600px; 
+    height: 560px;
+    right: 1px;
+    background: linear-gradient(
+    rgba(40, 170, 164, 0.815),
+    rgba(4, 145, 133, 0.5),
+    rgba(206, 144, 11, 0.801) 
+    ),url("imagens/Fundo/zErro.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+     display: none; 
+  }
+  
+
+  .gt1 {  /* Aquario*/
+
+    position: absolute;
+    top: 111px;
+    width: 600px;
+    height: 500px;
+    left: 340px;
+    background: linear-gradient(
+    rgba(244, 245, 244, 0.26),
+    rgba(28, 163, 216, 0.061)
+    ),url("imagens/simbolo/aquario.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+  
+  .capa1 {
+    
+    position: absolute;
+    top: 85px;
+    width: 1600px; 
+    height: 560px;
+    right: 1px;
+    background: linear-gradient(
+    rgba(40, 170, 164, 0.815),
+    rgba(4, 145, 133, 0.5),
+    rgba(206, 144, 11, 0.801)/*touro - aries - cancer - escorpiaum - gemeos - leao - libra - peixe- sagitario -zvirgem*/
+    ),url("imagens/Fundo/zaquario.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+
+
+  .gt2 { /* Peixes*/
+    position: absolute;
+    top: 111px;
+    width: 600px;
+    height: 500px;
+    left: 340px;
+    background: linear-gradient(
+    rgba(238, 238, 238, 0),
+    rgba(216, 211, 211, 0)
+    ),url("imagens/simbolo/peixes.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+
+  .capa2 {
+    
+    position: absolute;
+    top: 85px;
+    width: 1600px; 
+    height: 560px;
+    right: 1px;
+    background: linear-gradient(
+    rgba(40, 170, 164, 0.815),
+    rgba(4, 145, 133, 0.5),
+    rgba(206, 144, 11, 0.801)/*touro - aries - cancer - escorpiaum - gemeos - leao - libra - peixe- sagitario -zvirgem*/
+    ),url("imagens/Fundo/zpeixe.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+
+
+  .gt3 { /* Aries */
+    position: absolute;
+    top: 111px;
+    width: 600px;
+    height: 500px;
+    left: 340px;
+    background: linear-gradient(
+      to right, 
+    rgba(255, 255, 255, 0.438),
+    rgba(248, 8, 8, 0.315)
+    ),url("imagens/simbolo/aries.jpg") no-repeat; 
+   background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+
+  .capa3 {
+    
+    position: absolute;
+    top: 85px;
+    width: 1600px; 
+    height: 560px;
+    right: 1px;
+    background: linear-gradient(
+    rgba(40, 170, 164, 0.815),
+    rgba(4, 145, 133, 0.5),
+    rgba(206, 144, 11, 0.801)/*touro -  cancer - escorpiaum - gemeos - leao - libra -  sagitario -zvirgem*/
+    ),url("imagens/Fundo/zaries.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+
+
+  .gt4 {  /* Touro */
+
+    position: absolute;
+    top: 111px;
+    width: 600px;
+    height: 500px;
+    left: 340px;
+    background: linear-gradient(
+      to right, 
+    rgba(5, 5, 5, 0.171),
+    rgba(232, 248, 8, 0.199)
+    ),url("imagens/simbolo/touro.png") no-repeat center; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+   }
+
+  .capa4 {
+    
+    position: absolute;
+    top: 85px;
+    width: 1600px; 
+    height: 560px;
+    right: 1px;
+    background: linear-gradient(
+    rgba(40, 170, 164, 0.815),
+    rgba(4, 145, 133, 0.5),
+    rgba(206, 144, 11, 0.801)/* cancer - escorpiaum - gemeos - leao - libra -  sagitario -zvirgem*/
+    ),url("imagens/Fundo/ztouro.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+
+
+ .gt5 { /* Gemeos */
+
+    position: absolute;
+    top: 111px;
+    width: 600px;
+    height: 500px;
+    left: 340px;
+    background: linear-gradient(
+    rgba(238, 238, 238, 0),
+    rgba(216, 211, 211, 0)
+    ),url("imagens/simbolo/gemeos.jpg")no-repeat center right -10px ;
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none;
+  }
+
+  .capa5 {
+    
+    position: absolute;
+    top: 85px;
+    width: 1600px; 
+    height: 560px;
+    right: 1px;
+    background: linear-gradient(
+    rgba(40, 170, 164, 0.815),
+    rgba(4, 145, 133, 0.5),
+    rgba(206, 144, 11, 0.801)/*touro -  cancer - escorpiaum -  leao - libra -  sagitario -zvirgem*/
+    ),url("imagens/Fundo/zgemeos.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+
+
+  .gt6 { /* Cancer */
+
+    position: absolute;
+    top: 111px;
+    width: 600px;
+    height: 500px;
+    left: 340px;
+    background: linear-gradient(
+      to right, 
+    rgba(5, 5, 5, 0.014),
+    rgba(232, 248, 8, 0.014)
+    ),url("imagens/simbolo/cancer.jpg") no-repeat center; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+   }
+
+  .capa6 {
+    
+    position: absolute;
+    top: 85px;
+    width: 1600px; 
+    height: 560px;
+    right: 1px;
+    background: linear-gradient(
+    rgba(40, 170, 164, 0.815),
+    rgba(4, 145, 133, 0.5),
+    rgba(206, 144, 11, 0.801)/* -  escorpiaum - gemeos - leao - libra -  sagitario -zvirgem*/
+    ),url("imagens/Fundo/zcancer.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+   }
+
+
+  .gt7 { /* Leao */
+
+    position: absolute;
+    top: 111px;
+    width: 600px;
+    height: 500px;
+    left: 340px;
+    background: linear-gradient(
+      to right, 
+    rgba(5, 5, 5, 0.014),
+    rgba(232, 248, 8, 0.014)
+    ),url("imagens/simbolo/leao.jpg") no-repeat center; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+   }
+
+  .capa7 {
+    
+    position: absolute;
+    top: 85px;
+    width: 1600px; 
+    height: 560px;
+    right: 1px;
+    background: linear-gradient(
+    rgba(40, 170, 164, 0.815),
+    rgba(4, 145, 133, 0.5),
+    rgba(206, 144, 11, 0.801)/* -  escorpiaum - gemeos -  libra -  sagitario -zvirgem*/
+    ),url("imagens/Fundo/zleao.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+   }
+
+
+  .gt8 { /* Virgem */
+
+     position: absolute;
+     top: 111px;
+     width: 600px;
+     height: 500px;
+     left: 340px;
+     background: linear-gradient(
+      to right, 
+    rgba(5, 5, 5, 0.014),
+    rgba(232, 248, 8, 0.014)
+     ),url("imagens/simbolo/virgem.jpg") no-repeat left; 
+     background-size: cover;
+     -webkit-background-size: cover;
+     display: none;
+   } 
+
+  .capa8 {
+    
+    position: absolute;
+    top: 85px;
+    width: 1600px; 
+    height: 560px;
+    right: 1px;
+    background: linear-gradient(
+    rgba(40, 170, 164, 0.815),
+    rgba(4, 145, 133, 0.5),
+    rgba(206, 144, 11, 0.801)/* -  escorpiaum - gemeos -  libra -  sagitario */
+    ),url("imagens/Fundo/zvirgem.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+   }
+
+
+  .gt9 { /* Libra */
+
+    position: absolute;
+    top: 111px;
+    width: 600px;
+    height: 500px;
+    left: 340px;
+    background: linear-gradient(
+      to right, 
+    rgba(5, 5, 5, 0.014),
+    rgba(232, 248, 8, 0.014)
+    ),url("imagens/simbolo/libra.jpg") no-repeat center; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+
+  .capa9 {
+    
+    position: absolute;
+    top: 85px;
+    width: 1600px; 
+    height: 560px;
+    right: 1px;
+    background: linear-gradient(
+    rgba(40, 170, 164, 0.815),
+    rgba(4, 145, 133, 0.5),
+    rgba(206, 144, 11, 0.801)/* -  escorpiaum - gemeos -   sagitario */
+    ),url("imagens/Fundo/zlibra.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+
+
+  .gt10 { /* Escorpiaum */
+
+    position: absolute;
+    top: 111px;
+    width: 600px;
+    height: 500px;
+    left: 340px;
+    background: linear-gradient(
+      to right, 
+    rgba(5, 5, 5, 0.014),
+    rgba(232, 248, 8, 0.014)
+    ),url("imagens/simbolo/escorpiaum.jpg") no-repeat center; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+
+  .capa10 {
+    
+    position: absolute;
+    top: 85px;
+    width: 1600px; 
+    height: 560px;
+    right: 1px;
+    background: linear-gradient(
+    rgba(40, 170, 164, 0.815),
+    rgba(4, 145, 133, 0.5),
+    rgba(206, 144, 11, 0.801)/* -  escorpiaum - gemeos -   sagitario */
+    ),url("imagens/Fundo/zescorpiaum.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+
+
+  .gt11 { /* Sagitario*/
+
+    position: absolute;
+    top: 111px;
+    width: 600px;
+    height: 500px;
+    left: 340px;
+    background: linear-gradient(
+      to right, 
+    rgba(230, 119, 16, 0),
+    rgba(139, 2, 2, 0)
+    ),url("imagens/simbolo/sagitario.jpg") no-repeat center; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+
+  .capa11 {
+    
+    position: absolute;
+    top: 85px;
+    width: 1600px; 
+    height: 560px;
+    right: 1px;
+    background: linear-gradient(
+    rgba(40, 170, 164, 0.815),
+    rgba(4, 145, 133, 0.5),
+    rgba(206, 144, 11, 0.801)/* -  escorpiaum - gemeos -   sagitario */
+    ),url("imagens/Fundo/zsagitario.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+
+
+  .gt12 {
+
+    position: absolute;
+    top: 111px;
+    width: 600px;
+    height: 500px;
+    left: 340px;
+    background: linear-gradient(
+    rgba(238, 238, 238, 0),
+    rgba(216, 211, 211, 0)
+    ),url("imagens/simbolo/capricornio.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+
+  .capa12 { /* Capricornio*/
+    
+    position: absolute;
+    top: 85px;
+    width: 1600px; 
+    height: 560px;
+    right: 1px;
+    background: linear-gradient(
+    rgba(40, 170, 164, 0.815),
+    rgba(4, 145, 133, 0.5),
+    rgba(206, 144, 11, 0.801)
+    ),url("imagens/Fundo/zcapricornio.jpg") no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    display: none; 
+  }
+
