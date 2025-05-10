@@ -1,4 +1,4 @@
-// Author: Jose Samuel| Upgrade: 18/07/20
+// Author: Jose Samuel| Upgrade: 18/07/18
 
   var dia = 0;
   var mes = 0;
@@ -170,7 +170,7 @@
       } 
 
      // Ar
-      if(dia >= 21 && mes == 5 && dia <= 31|| dia <= 21 && mes == 6){ /*Gemeos*/  ElementoAr = (ElementoAr + 5)
+      if(dia >= 21 && mes == 5 && dia <= 31|| dia <= 20 && mes == 6){ /*Gemeos*/  ElementoAr = (ElementoAr + 5)
         normal = 5
        ElementoAgua = 0
        ElementoTerra = 0
@@ -254,7 +254,7 @@
          document.getElementById("signer").innerHTML = 'Peixes';
          document.getElementById("cada3").innerHTML = textaumAgua1;
       }
-      if(mes === 6 && dia >= 22 && dia <= 30|| dia <= 22 && mes == 7){ /* Câncer*/  ElementoAgua = (ElementoAgua + 5)
+      if(dia >= 21 && mes == 6 &&  dia <= 30|| dia <= 22 && mes == 7){ /* Câncer*/  ElementoAgua = (ElementoAgua + 5)
         normal = 5
         ElementoTerra = 0
         ElementoAr = 0
